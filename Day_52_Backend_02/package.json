@@ -1,0 +1,11 @@
+{
+  "name": "day_52_backend_02",
+  "version": "1.0.0",
+  "main": "nodejs_basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lazinerd",
+  "license": "ISC",
+  "description": ""
+}

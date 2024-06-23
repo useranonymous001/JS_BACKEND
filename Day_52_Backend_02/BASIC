@@ -1,0 +1,34 @@
+/\*\*
+
+Node Js is not a programming language neither a technology neither a framework not a library. Then What is it?
+
+==> It is a JS runtime environment
+
+// Before JS couldn't perform backend tasks then a person named ryan dahl tried to manipulate the GOOGLE V8 ENGINE.
+But the V8 engine was written in C++.
+
+Node JS is a JS runtime environment
+
+\*/
+
+/\*
+Installing Node.js and npm
+
+    - Go to browser and download NODE JS (LTS) version
+
+    npm -> it is used to import and use other modules and packages.
+
+\*/
+
+    /*
+        WORKING WITH NODE AND NPM
+            # INITIALIZATION OF PROJECT
+                - npm init -y (all defaults)
+
+
+            # NODE BASIC USAGE
+                - Go the Documentation section
+                - Look for the modules and choose the calling methods (either using promise CJS or callback ESM)
+                - Eg: const fs = require('fs'); // Using CJS (common JS)
+                - Eg: const fs = require('node:fs');   // same as above
+     */
