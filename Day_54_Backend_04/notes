@@ -1,0 +1,52 @@
+DYNAMIC ROUTING
+
+    How to create a dynamic routes?
+        -- visit the browser and type the url and press enter.
+        -- You might notice some errors. Now you need to identify what route is changing for each req.
+        -- then create a dynamic route using colon(:) before the route in app.get("/:)
+
+NOTE: for running any code, go to the package.json file and edit the main key and write the name of the file you want to run.
+
+WHAT DID I LEARNED TODAY
+
+1.  dynamic routing
+2.  connecting the frontend with the backend using ejs
+3.  passing arguments to the frontend in the form of objects.
+
+MONGO DB AND MANGOOS
+
+            MONGODB
+
+DATA STORAGE
+-- storing all the information
+-- database :: everything is stored in the database
+
+TYPES OF DBS
+-- SQL :: stored in the form of tables(rows and columns)
+-- NoSQL :: Not only SQL
+
+    :: NoSQL :: mongoDB
+
+It stores the data in the form of objects.
+
+:: Some Terminologies
+    
+    Database -> Models      -> Individual Data
+    ---------------------------------------------
+    Database -> Collections -> Documents  
+
+
+
+What happens in database when we code? How we code and its result in the databse?
+
+
+    CODE                           DATABASE
+------------------------------------------------------------
+mongoose.connect     -->        creates database
+model create         -->        collections is created
+CREATE user          -->        document is created
+
+
+
+
+    

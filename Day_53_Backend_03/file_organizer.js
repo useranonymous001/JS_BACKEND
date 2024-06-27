@@ -1,14 +1,18 @@
 // FILE ORGANIZER
 
+// change the directory path according to your systems
+// required modules :
+// npm i fs
+
 // modules requires
 const fs = require("fs");
 const path = require("path");
 
-// steps
-// read the directory contents
+//steps
 
+// read the directory contents
 const fileOrganizer = () => {
-  const parentDirectory = "./directory_containing_files";
+  const parentDirectory = "./directory_containing_files"; // enter your own
 
   fs.readdir(parentDirectory, (err, files) => {
     if (err) {
